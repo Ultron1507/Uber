@@ -43,7 +43,7 @@ const CaptainSignup = () => {
             />
 
         <form onSubmit={submithandler}>
-          <h3 className='text-xl font-semibold mb-2'>What's your name</h3>
+          <h3 className='text-xl font-semibold mb-2'>What's our Captain's name</h3>
           <div className='flex gap-2.5 mb-5'>
             <input
               required
@@ -63,7 +63,7 @@ const CaptainSignup = () => {
             />
           </div>
 
-          <h3 className='text-xl font-semibold mb-2'>What's your email</h3>
+          <h3 className='text-xl font-semibold mb-2'>What's our Captain's email</h3>
           <input
             required
             className='bg-[#eeeeee] mb-6 rounded px-4 py-2 border w-full text-base placeholder:text-sm'
